@@ -1,0 +1,31 @@
+#!/bin/bash
+echo "number:"
+read max
+for (( a = 2; a <= max; a++ ))
+do
+	sleep 0.25 && clear
+	for (( c  = 1; c <= 2 * a; c++))
+	do
+		echo -n "0"
+	done
+
+	for (( b = 1; b <= a; b++ ))
+	do
+		echo 0
+		echo -n 0
+		for ((t = 1; t <= 2 * a - 1; t++))
+	   	do
+			echo -n " "
+		done	   
+	done
+	echo -n "0"
+	echo
+
+	for (( k = 1; k <= 2 * a; k++))
+	do
+		echo -n "0"
+	done
+	echo -n 0
+	echo ""
+done
+echo -e "\033[37;1;41mCOMPLEATE made by icanker\033[0m"

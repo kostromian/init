@@ -1,0 +1,1 @@
+"du -sh /var/*" ------- figure out the exact size of each folder of /var

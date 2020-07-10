@@ -1,0 +1,1 @@
+"tail -f /var/log/syslog &" ------- ‘tail -f /var/log/syslog‘ in background

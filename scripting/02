@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Enter user"
+read user
+sudo kill $(pgrep -u $user)
+deluser $user

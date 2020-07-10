@@ -1,0 +1,2 @@
+"su -l <new_name>" ------- connect yourself as new user with graphic session
+"ssh [new_name@][ip/host]" ------- connect yourself as new user with ssh session

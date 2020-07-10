@@ -1,0 +1,1 @@
+"service ssh status | grep "PID" | awk '{print $3}'" ------- PID of the SSHD service
